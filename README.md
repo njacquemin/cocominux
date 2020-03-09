@@ -1,6 +1,6 @@
 # CocoMinux
 
-__Version 0.0.1__
+__Version 0.0.1 - 202003091938__
 
 ## What's CocoMinux ?
 
@@ -15,6 +15,7 @@ And...
 * CRUD the precedent choices
 * Start|Pause|Stop|Restart timers
 * CRON-style but I'm not sure a PWA can do that if closed...
+* CRUD + json export/import lists of timers
 * etc.
 * (I'm pretty tired so I can't think about the rest)
 
@@ -26,7 +27,7 @@ And...
 ## Technologies
 
 * [Mithril.js](https://mithril.js.org/) 2.0.4
-* [UIkit](https://getuikit.com/) 3.3.2
+* [UIkit](https://getuikit.com/) 3.3.3
 * [PouchDB](https://pouchdb.com/) 7.1.1
 * [Fork Awesome](https://forkaweso.me/Fork-Awesome/) 1.1.7
 

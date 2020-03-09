@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/ext/UIkit/3.3.3/css/uikit.min.css">
 </head>
 <body>
-<div id="root">
+<div id="root" style="max-width: 320px;">
     <nav class="uk-navbar-container" uk-navbar style="background-color: #1e87f0;color: #fff;">
         <div class="uk-navbar-item uk-navbar-left" style="color: #fff;">
             &nbsp;&nbsp;
@@ -19,7 +19,37 @@
             CocoMinux
         </div>
     </nav>
-    <div>
+    <div data-cocominux-id="5e661d7b19c6a">
+        <div class="uk-grid-collapse uk-grid-match uk-child-width-expand" uk-grid uk-countdown="date: 2020-03-16T14:09:06+00:00" style="min-height:60px;">
+            <div class="uk-width-1-5 uk-height-1-2">
+                <div class="uk-margin-small-top uk-margin-small-right uk-margin-small-bottom uk-margin-small-left uk-text-center uk-flex uk-flex-center uk-flex-middle">
+                    <span class="uk-countdown-number uk-countdown-days" style="font-size: 2rem;"></span>
+                </div>
+            </div>
+            <div class="uk-width-1-5 uk-height-1-2">
+                <div class="uk-margin-small-top uk-margin-small-right uk-margin-small-bottom uk-margin-small-left uk-text-center uk-flex uk-flex-center uk-flex-middle">
+                    <span class="uk-countdown-number uk-countdown-hours" style="font-size: 2rem;"></span>
+                </div>
+            </div>
+            <div class="uk-width-1-5 uk-height-1-2">
+                <div class="uk-margin-small-top uk-margin-small-right uk-margin-small-bottom uk-margin-small-left uk-text-center uk-flex uk-flex-center uk-flex-middle">
+                    <span class="uk-countdown-number uk-countdown-minutes" style="font-size: 2rem;"></span>
+                </div>
+            </div>
+            <div class="uk-width-1-5 uk-height-1-2">
+                <div class="uk-margin-small-top uk-margin-small-right uk-margin-small-bottom uk-margin-small-left uk-text-center uk-flex uk-flex-center uk-flex-middle">
+                    <span class="uk-countdown-number uk-countdown-seconds" style="font-size: 2rem;"></span>
+                </div>
+            </div>
+            <div class="uk-width-1-5 uk-height-1-2">
+                <div class="uk-margin-small-top uk-margin-small-right uk-margin-small-bottom uk-margin-small-left uk-flex">
+                    <button class="uk-button uk-button-small uk-button-secondary uk-text-center">
+                        <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                        <!-- <i class="fa fa-chevron-up" aria-hidden="true"></i> -->
+                    </button>
+                </div>
+            </div>
+        </div>
         <div class="uk-grid-collapse uk-grid-match uk-child-width-expand" uk-grid>
             <div class="uk-width-1-5 uk-height-1-2">
                 <div class="uk-margin-small-top uk-margin-small-right uk-margin-small-bottom uk-margin-small-left">
@@ -43,9 +73,8 @@
             </div>
             <div class="uk-width-1-5 uk-height-1-2">
                 <div class="uk-margin-small-top uk-margin-small-right uk-margin-small-bottom uk-margin-small-left uk-flex">
-                    <button class="uk-button uk-button-small uk-button-secondary uk-text-center">
-                        <!-- <i class="fa fa-chevron-down" aria-hidden="true"></i> -->
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    <button class="uk-button uk-button-small uk-button-secondary uk-text-center" style="min-width:43.84px !important;">
+                        <i class="fa fa-close" aria-hidden="true"></i>
                     </button>
                 </div>
             </div>
@@ -55,13 +84,6 @@
                 <div class="uk-margin-small-top uk-margin-small-right uk-margin-small-bottom uk-margin-small-left uk-flex">
                     <button class="uk-button uk-button-small uk-button-secondary uk-text-center">
                         <i class="fa fa-play" aria-hidden="true"></i>
-                    </button>
-                </div>
-            </div>
-            <div class="uk-width-1-5 uk-height-1-2">
-                <div class="uk-margin-small-top uk-margin-small-right uk-margin-small-bottom uk-margin-small-left uk-flex">
-                    <button class="uk-button uk-button-small uk-button-secondary uk-text-center">
-                        <i class="fa fa-pause" aria-hidden="true"></i>
                     </button>
                 </div>
             </div>
@@ -81,15 +103,27 @@
             </div>
             <div class="uk-width-1-5 uk-height-1-2">
                 <div class="uk-margin-small-top uk-margin-small-right uk-margin-small-bottom uk-margin-small-left uk-flex">
-                    &nbsp;
+                    <button class="uk-button uk-button-small uk-button-secondary uk-text-center">
+                        <i class="fa fa-trash-o" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="uk-width-1-5 uk-height-1-2">
+                <div class="uk-margin-small-top uk-margin-small-right uk-margin-small-bottom uk-margin-small-left uk-flex">
+                    <button class="uk-button uk-button-small uk-button-secondary uk-text-center">
+                        <i class="fa fa-pencil" aria-hidden="true"></i>
+                    </button>
                 </div>
             </div>
         </div>
     </div>
 </div>
+<a href="" id="cocominux-dl-link" style="display:none;"></a>
 <script src="/ext/UIkit/3.3.3/js/uikit.min.js"></script>
 <script src="/ext/UIkit/3.3.3/js/uikit-icons.min.js"></script>
 <script src="/ext/Mithril/2.0.4/mithril.js"></script>
 <script src="/ext/PouchDB/7.1.1/js/pouchdb.min.js"></script>
+<script src="/js/library.js"></script>
+<script src="/app/app.js"></script>
 </body>
 </html>
