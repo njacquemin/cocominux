@@ -1,6 +1,6 @@
 # CocoMinux
 
-__Version 0.0.1 - 202003091947__
+__Version 0.0.1 \- 202003091947__
 
 ## What's CocoMinux ?
 
