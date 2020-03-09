@@ -30,6 +30,9 @@ And...
 * [UIkit](https://getuikit.com/) 3.3.3
 * [PouchDB](https://pouchdb.com/) 7.1.1
 * [Fork Awesome](https://forkaweso.me/Fork-Awesome/) 1.1.7
+* A custom library, link to the sources :
+    - [uniqid](https://www.mrbinr.com/2014/07/03/uniqid-en-javascript)
+    - [saveToJSON](https://stackoverflow.com/a/19328891/2366345)
 
 For local development purpose, I won't use the CDN (yet), I didn't thought about everything yet (again), this is only a first draft.
 
